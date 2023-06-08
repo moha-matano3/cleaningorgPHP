@@ -1,0 +1,58 @@
+.navbar {
+    background-color: orange;
+    height: auto;
+}
+.navbar ul {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar ul li {
+    display: inline;
+    padding: 60px;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar ul li a:hover {
+    background-color: #808080;
+}
+.header {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.contacts {
+    clear: both;
+    position: absolute;
+    margin: auto;
+    bottom: 10px;
+    background-color: orange;
+    clear: both;
+    width: 100%;
+}
+.contacts ul {
+    text-align: center;
+    padding: auto;
+    list-style-type: none;
+}
+.contacts ul li {
+    
+    display: inline;
+    padding: 60px;
+}
+.contacts ul li a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    background-image: url('./images/Vacuum.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
